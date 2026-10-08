@@ -1,24 +1,28 @@
 {
-  "name": "game-library",
-  "version": "0.1.0",
-  "private": true,
+  "name": "color-name",
+  "version": "1.1.4",
+  "description": "A list of color names and its values",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "test": "node test.js"
   },
-  "dependencies": {
-    "@google-cloud/dialogflow": "^8.2.0",
-    "next": "16.4.0",
-    "pb-util": "^1.0.3",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:colorjs/color-name.git"
   },
-  "devDependencies": {
-    "@tailwindcss/turbopack": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.0",
-    "tailwindcss": "^4"
-  }
+  "keywords": [
+    "color-name",
+    "color",
+    "color-keyword",
+    "keyword"
+  ],
+  "author": "DY <dfcreative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colorjs/color-name/issues"
+  },
+  "homepage": "https://github.com/colorjs/color-name"
 }
